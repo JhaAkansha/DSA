@@ -1,15 +1,9 @@
 '''
 We define a magic square to be an n x n matrix of distinct positive integers from 1 to n^2 where the sum of any row, column, or diagonal of length
-
 is always equal to the same number: the magic constant.
-
-You will be given a 3x3 matrix of integers in the inclusive range [1,9]. We can convert any digit a to any other digit b in the range [1,9] at cost of |a-b| . Given
-
-s, convert it into a magic square at minimal cost. Print this cost on a new line.
-
+You will be given a 3x3 matrix of integers in the inclusive range [1,9]. We can convert any digit a to any other digit b in the range [1,9] at cost of |a-b| . Given s, convert it into a magic square at minimal cost. Print this cost on a new line.
 Note: The resulting magic square must contain distinct integers in the inclusive range [1,9].
 '''
-
 def formingMagicSquare(s):
     msp = {
     0:[8,1,6,3,5,7,4,9,2],
@@ -21,11 +15,8 @@ def formingMagicSquare(s):
     6:[6,7,2,1,5,9,8,3,4],
     7:[2,7,6,9,5,1,4,3,8],
     }
-
     box = [*s[0], *s[1], *s[2]]
-
     result = [0, 0, 0, 0, 0, 0, 0, 0]
-
     for x in range(9):
             result[0] += abs(msp[0][x] - box[x])
             result[1] += abs(msp[1][x] - box[x])
