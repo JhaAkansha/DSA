@@ -1,8 +1,8 @@
 /*
 Given a binary array nums and an integer goal, return the number of non-empty subarrays with a sum goal.
-
 A subarray is a contiguous part of the array.
 */
+
 class Solution {
     public int numSubarraysWithSum(int[] nums, int goal) {
         int totalCount = 0;
