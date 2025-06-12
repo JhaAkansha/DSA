@@ -5,6 +5,7 @@ Initially, you have w capital. When you finish a project, you will obtain its pu
 Pick a list of at most k distinct projects from given projects to maximize your final capital, and return the final maximized capital.
 The answer is guaranteed to fit in a 32-bit signed integer.
 */
+
 class Solution {
         private static class Project {
             int capital;
@@ -14,6 +15,7 @@ class Solution {
                 this.profit = profit;
             }
         }
+        
         public int findMaximizedCapital(int k, int w, int[] profits, int[] capital) {
             int n = profits.length;
             List<Project> projects = new ArrayList<>();
@@ -33,6 +35,7 @@ class Solution {
                 }
                 w += maxHeap.poll();
             }
+                
             return w;
     }
 }
