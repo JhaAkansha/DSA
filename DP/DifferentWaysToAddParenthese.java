@@ -13,7 +13,6 @@ class Solution {
             if(ch=='*' || ch == '+' ||ch=='-'){
                 List<Integer> left = diffWaysToCompute(expression.substring(0,i));
                 List<Integer> right = diffWaysToCompute(expression.substring(i+1));
-
                 for (int l : left) {
                     for (int r : right) {
                         if (ch == '+') {
@@ -31,8 +30,6 @@ class Solution {
             result.add(Integer.parseInt(expression));
         }
         map.put(expression, result);
-
         return result;
-        
     }
 }
