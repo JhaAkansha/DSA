@@ -18,5 +18,4 @@ class Solution {
         }
         return new int[]{minIndex, lastMaxOnes};
     }
-
 }
