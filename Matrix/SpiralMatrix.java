@@ -1,6 +1,6 @@
 /*
- * Given an m x n matrix, return all elements of the matrix in spiral order.
- */
+Given an m x n matrix, return all elements of the matrix in spiral order.
+*/
 
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) 
