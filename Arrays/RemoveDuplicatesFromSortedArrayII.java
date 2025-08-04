@@ -4,3 +4,15 @@
  Return k after placing the final result in the first k slots of nums.
  Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.
  */
+
+ class Solution {
+    public int removeDuplicates(int[] nums) {
+        int j = 1;
+        for (int i = 1; i < nums.length; i++) {
+            if (j == 1 || nums[i] != nums[j - 2]) {
+                nums[j++] = nums[i];
+            }
+        }
+        return j;
+    }
+}
