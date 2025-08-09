@@ -40,11 +40,9 @@ Only one valid answer exists.
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 */
 
-/**
- * Note: The returned array must be malloced, 
-assume caller calls free().
- */
-int* twoSum(int* nums, int numsSize, int target, 
-int* returnSize) {
-    
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        System.out.println("Testing leetsync 
+extension");
+    }
 }
