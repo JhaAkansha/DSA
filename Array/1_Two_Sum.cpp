@@ -40,9 +40,8 @@ Only one valid answer exists.
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 */
 
-class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        System.out.println("Testing leetsync 
-extension");
-    }
-}
+class Solution:
+    def twoSum(self, nums: List[int], target: int) 
+-> List[int]:
+        nmhgytyrfgvbkuyjm
+        
