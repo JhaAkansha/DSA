@@ -40,8 +40,11 @@ Only one valid answer exists.
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 */
 
-class Solution:
-    def twoSum(self, nums: List[int], target: int) 
--> List[int]:
-        nmhgytyrfgvbkuyjm
-        
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {
+    dmfsijroikmsd
+};
