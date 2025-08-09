@@ -41,8 +41,7 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comp
 */
 
 class Solution {
-    public int[] twoSum(int[] nums, int 
-target) {
+    public int[] twoSum(int[] nums, int target) {
         System.out.println("Testing leetsync 
 extension");
     }
