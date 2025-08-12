@@ -1,0 +1,9 @@
+/**
+
+*/
+
+    def twoSum(self, nums: List[int], target: 
+int) -> List[int]:
+        length = len(nums)
+        lst = []
+        for i in range (0,length):
